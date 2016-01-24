@@ -1,0 +1,13 @@
+{
+  "locale": "en",
+
+  "messages": {
+    "TITLE": "Pong Game",
+    "CONTROLS": "(use 'a' or 'left' and 'd' or 'right' to move racket)",
+    "START_GAME_BUTTON": "Start game",
+
+    "VICTORY": "Victory :)",
+    "DEFEAT": "Defeat :(",
+    "PLAY_AGAIN_GAME_BUTTON": "Play again"
+  }
+}

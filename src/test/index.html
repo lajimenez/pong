@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Pong Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="/rock.js/src/main/js/load-rock.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="/rock.game.js/src/main/js/load-rock-game.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="../main/js/load-pong.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        loadRock('/rock.js/src/main/js/rock/');
+        loadRockGame('/rock.game.js/src/main/js/rock/');
+        loadPong('../main/js/pong/');
+    </script>
+    <script type="text/javascript" src="init.js" charset="UTF-8"></script>
+</head>
+<body onload="init('divPongGame', '../main/resources/');">
+
+<br/>
+<div class="center">
+    <div id="divPongGame" class="fit"></div>
+</div>
+
+
+</body>
+</html>
